@@ -23,6 +23,3 @@ def play(cards, t):
     win_rate = win_counter / t
     print("Out of " + str(t) + " times that you played, with a deck of " + str(n) + " cards, you have won " + str(win_counter) + " times! That is a win rate of " + str(win_rate) + "!")
     print("Compared to the expected probability of " + str(win_prob) + " your win rate deviates by " + str((win_rate-win_prob)/win_prob * 100) + "%!")
-play(cards, t)
-
-
