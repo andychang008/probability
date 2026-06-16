@@ -20,5 +20,6 @@ def nCr(n, r): #combinations
 
     elif n < r:
         return 0
+    
     else:
         return (factorials(n) / (factorials(r) * factorials(n-r)))
